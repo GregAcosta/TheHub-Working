@@ -1,13 +1,13 @@
+import java.sql.*;
+import java.util.Scanner;
+
 public class CommunityMember extends User {
-    private boolean volunteerStatus;
+    private String volunteerStatus;
     
-
-    //private static int comMemberCount = 0; // number of objects in memory, keeps track of all users (Maybe also include this in the main User class)
-
-
-     //constructor
+         //constructor
      public CommunityMember() {
-
+         System.out.print("Are you SURE you want to volunteer?");
+         this.volunteerStatus = sc.nextLine().trim().toLowerCase();
      }
 
      // Used to create private events

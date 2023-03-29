@@ -2,6 +2,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+//TODO Fix this so that it will compile and it works with the DB.
 public class GatheringManager extends User {
     private User currentUser;
     private List<Gathering> gatherings;

@@ -3,7 +3,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+//TODO get Smart TomCat working
 public class CreateDatabase {
     static final String driver = "com.mysql.cj.jdbc.Driver";
     static final String url = "jdbc:mysql://localhost/";
@@ -48,7 +48,9 @@ public class CreateDatabase {
                     " email VARCHAR(255), " +
                     " bio VARCHAR(255), " +
                     " location VARCHAR(255), " +
-                    " phone_number VARCHAR(50)) ;";
+                    " phone_number VARCHAR(50), " +
+                    " volunteer_status VARCHAR(255), " +
+                    " authorization_level VARCHAR(50)) ;";
             st.executeUpdate(sql3);
             System.out.println("Table created successfully...");
 

@@ -1,13 +1,12 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.sql.*;
+import java.util.Scanner;
 
-    public class GatheringManager extends User {
+    public class GatheringManager extends User {/*
         private User currentUser;
         private List<Gathering> gatherings;
 
         public GatheringManager(String username, String password, String name, String email) {
-            super(username, password, name, email);
-            gatherings = new ArrayList<>();
+
         }
 
         public void login(String username, String password) {
@@ -48,6 +47,6 @@ import java.util.List;
 
         public void setGatherings(List<Gathering> gatherings) {
             this.gatherings = gatherings;
-        }
+        }*/
     }
 //
