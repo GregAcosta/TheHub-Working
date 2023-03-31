@@ -3,6 +3,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 //TODO get Smart TomCat working
 public class CreateDatabase {
     static final String driver = "com.mysql.cj.jdbc.Driver";

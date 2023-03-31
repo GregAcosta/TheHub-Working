@@ -1,11 +1,11 @@
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-
+Doing a thing so that there is a change to the file
 //TODO Fix this so that it will compile and it works with the DB.
 public class GatheringManager extends User {
     private User currentUser;
-    private List<Gathering> gatherings;
+    /*private List<Gathering> gatherings;
 
     public GatheringManager(String username, String password, String name, String email) {
         super(username, password, name, email);
@@ -74,5 +74,5 @@ public class GatheringManager extends User {
         for (Event event : currentUser.getEvents()) {
             calendar.addEvent(event);
         }
-    }
+    }*/
 }

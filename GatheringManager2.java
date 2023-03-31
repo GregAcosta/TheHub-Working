@@ -1,7 +1,4 @@
-import java.sql.*;
-import java.util.Scanner;
-
-    public class GatheringManager extends User {/*
+public class GatheringManager2 extends User {/*
         private User currentUser;
         private List<Gathering> gatherings;
 
@@ -49,4 +46,3 @@ import java.util.Scanner;
             this.gatherings = gatherings;
         }*/
     }
-//
