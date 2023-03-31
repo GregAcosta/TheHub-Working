@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-Doing a thing so that there is a change to the file
+Doing a thing so that there is a change to the file again
 //TODO Fix this so that it will compile and it works with the DB.
 public class GatheringManager extends User {
     private User currentUser;
